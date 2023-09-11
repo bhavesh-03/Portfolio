@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import Skills from '../Pages/Skills';
+import Blogs from '../Pages/Blogs';
 import { GrDocumentPdf } from 'react-icons/gr';
 
 
@@ -17,7 +18,7 @@ function App() {
         </p>
         <div className="flex flex-row space-x-7 mt-4">
           <Link to='/Projects' className=" bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400">  <span>Projects</span></Link>
-          <Link to='/Blog' className="bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400">Blogs</Link>
+          <Link to='/Blog' className="bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400" element={<Blogs/>}>Blogs</Link>
           <Link to='/Skills' className="bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400y" element={<Skills />}>Skills</Link>
           <Link to='/Education' className="bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400">Education</Link>
         </div>

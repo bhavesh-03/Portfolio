@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { SiCplusplus } from 'react-icons/si';
-import { BiLogoJavascript, BiLogoPython, BiLogoJava,BiLogoReact,BiLogoTailwindCss,BiLogoMongodb } from 'react-icons/bi';
+import { BiLogoJavascript, BiLogoPython,BiLogoReact,BiLogoTailwindCss,BiLogoMongodb } from 'react-icons/bi';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { SiExpress,SiMysql,SiSequelize } from 'react-icons/si';
@@ -22,7 +22,7 @@ const Skills = () => {
    
       {/* Left Section: Text */}
       <div className="w-full sm:w-1/2 h-screen p-4 flex flex-wrap justify-center items-center">
-        <h1 className="text-8xl  mx-auto font-bold text-stone-800 mb-4 text-center">
+        <h1 className="text-8xl  mx-auto font-bold text-stone-800 mb-4 text-center animate-jump animate-once animate-duration-[5000ms] animate-ease-out animate-normal animate-fill-forwards">
           The <span className='text-[#3B82F6]'>Tools</span> and <span className='text-[#3B82F6]'>Technologies</span> I have worked with
         </h1>
       </div>
@@ -59,7 +59,7 @@ const Skills = () => {
               <SiExpress fill='#000000' className='hover:cursor-pointer' title='ExpressJS'/>
               <SiMysql fill="#4479A1" className='hover:cursor-pointer' title='Mysql'/>
               <BiLogoMongodb fill="#47A248" className='hover:cursor-pointer' title='MongoDB'/>
-              <SiSequelize  fill =" #52B0E7" className='hover:cursor-pointer' title='SiSequelize'/>
+              <SiSequelize  fill =" #52B0E7" className='hover:cursor-pointer' title='Sequelize'/>
             </div>
           </div>
         </div>
