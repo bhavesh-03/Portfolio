@@ -8,7 +8,7 @@ import { GrDocumentPdf } from 'react-icons/gr';
 function App() {
   return (
     <div className="container min-h-screen flex min-w-full flex-col ">
-      <main className="main flex-grow flex flex-col items-center justify-center bg-gray-100 p-5 rounded">
+      <main className="main flex-grow flex flex-col items-center justify-center bg-[#FFFFFF] p-5 rounded">
         <div className="title font-bold text-6xl text-center">
           Hi!👋🏻 I am <br />
           <span className="text-blue-500">Bhavesh Mankar</span>
@@ -28,10 +28,10 @@ function App() {
           <a target="_blank" rel='noreferrer' href={"https://github.com/bhavesh-03"} className="bg-gray-200 hover:bg-gray-300 text-gray-700 hover:text-gray-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-gray-400">GitHub</a>
           {/* Linkedin  */}
           <a target="_blank" rel='noreferrer' href={"https://www.linkedin.com/in/bhavesh-mankar-7420ba22a/"} className="bg-gray-200 hover:bg-gray-300 text-gray-700 hover:text-gray-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-gray-400">LinkedIn</a>
-          <a target="_blank" rel='noreferrer' href={""} className="bg-gray-200 hover:bg-gray-300 text-gray-700 hover:text-gray-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-gray-400">Email</a>
+          <a target="_blank" rel='noreferrer' href={"mailto:bmmankar25@gmail.com@gmail.com"} className="bg-gray-200 hover:bg-gray-300 text-gray-700 hover:text-gray-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-gray-400">Email</a>
         </div>
       </main>
-      <footer className="footer text-center text-gray-600 py-4 font-semibold">
+      <footer className="footer text-center border-t-2 border-t-neutral-200 bg-[#FAFAFA] text-gray-600 py-4 font-semibold">
         Made with ❤️ by Bhavesh Mankar
       </footer>
     </div>

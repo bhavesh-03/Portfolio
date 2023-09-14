@@ -7,14 +7,30 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { SiExpress,SiMysql,SiSequelize } from 'react-icons/si';
 import { FaCss3Alt,FaNode } from 'react-icons/fa';
 import JavaLogo from '../Assets/icons8-java-96.png'; 
-
+import { Link } from 'react-router-dom';
 
 const Skills = () => {
   // Add this CSS to make the page no-scroll
  
   return (
     <div className='container h-screen flex min-w-full flex-col overflow-hidden' >
-    <div className="flex min-w-full h-[93%]  bg-gray-200 ">
+     <nav className=" bg-[#FAFAFA] p-4 space-x-4 border-b border-b-neutral-200">
+      <div className="container mx-auto flex justify-between items-center ">
+        <Link to="/" className=" text-lg font-semibold hover:text-opacity-80 transition duration-300">
+          Home
+        </Link>
+        <Link to="/Project" className=" text-lg font-semibold hover:text-opacity-80 transition duration-300">
+          Projects
+        </Link>
+        <Link to="/about" className=" text-lg font-semibold hover:text-opacity-80 transition duration-300">
+          About Me
+        </Link>
+        <Link to="/Blog" className=" text-lg font-semibold hover:text-opacity-80 transition duration-300">
+          Blogs
+        </Link>
+      </div>
+    </nav>
+    <div className="flex min-w-full h-[93%]  bg-[##FFFFFF] ">
    
       {/* Left Section: Text */}
       <div className="w-full sm:w-1/2  p-4 flex flex-wrap justify-center items-center">
@@ -65,7 +81,7 @@ const Skills = () => {
       
     </div>
     {/* Footer*/}
-    <footer className="footer h-[7%] bottom-0 bg-white w-full  bg-color-white text-center text-gray-600 py-4 font-semibold">
+    <footer className=" footer h-[7%] bottom-0  bg-[#FAFAFA] w-full  bg-color-white text-center text-gray-600 py-4 font-semibold border-t-2 border-t-neutral-200">
       Made with ❤️ by Bhavesh Mankar
     </footer>
   </div>
