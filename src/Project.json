@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Project 1",
+    "description": "This is the description of project 1.",
+    "techStack": "React, Node.js, MongoDB",
+    "githubLink": "https://github.com/project1",
+    "liveDemoLink": "https://project1demo.com"
+  },
+  {
+    "id": 2,
+    "name": "Project 2",
+    "description": "This is the description of project 2.",
+    "techStack": "Angular, Express, PostgreSQL",
+    "githubLink": "https://github.com/project2",
+    "liveDemoLink": "https://project2demo.com"
+  }
+]
