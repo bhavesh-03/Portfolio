@@ -1,5 +1,5 @@
 import React from 'react'
-import projectData from '../Project.json';
+import projectData from '../project.json';
 import ProjectList from '../Components/ProjectList';
 
 

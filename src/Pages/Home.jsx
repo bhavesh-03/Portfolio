@@ -2,16 +2,16 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import Skills from '../Pages/Skills';
 import Blogs from '../Pages/Blogs';
-import { GrDocumentPdf } from 'react-icons/gr';
+
 
 
 function App() {
   return (
-    <div className="container min-h-screen flex min-w-full flex-col ">
+    <div className="container min-h-screen flex min-w-full flex-col  ">
       <main className="main flex-grow flex flex-col items-center justify-center bg-[#FFFFFF] p-5 rounded">
         <div className="title font-bold text-6xl text-center">
           Hi!👋🏻 I am <br />
-          <span className="text-blue-500">Bhavesh Mankar</span>
+          <span className="text-[#3282B8]">Bhavesh Mankar</span>
         </div>
         <p className="description text-center text-3xl my-4">
           A Full Stack developer and Problem Solver
@@ -20,7 +20,7 @@ function App() {
           <Link to='/Project' className=" bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400">  <span>Project</span></Link>
           <Link to='/Blog' className="bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400" element={<Blogs/>}>Blogs</Link>
           <Link to='/Skills' className="bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400y" element={<Skills />}>Skills</Link>
-          <Link to='/About' className="bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400">About</Link>
+          <Link to='/About' className="bg-blue-100 hover:bg-blue-200 text-blue-900 hover:text-blue-800 font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-400">About Me</Link>
         </div>
         {/* For Bottom Buttons */}
         <div className="flex flex-row space-x-4 mt-4">

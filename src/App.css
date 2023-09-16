@@ -1,1 +1,4 @@
-/* write your css here */
+::selection {
+  background-color: #3282B8; /* Change the background color */
+  color: white; /* Change the text color */
+}
