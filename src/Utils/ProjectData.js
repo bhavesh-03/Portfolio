@@ -1,4 +1,4 @@
-import Project1Image from './Assets/notion avatar.png';
+import Project1Image from '../Assets/notion avatar.png';
 
 const projectData = [
   {
