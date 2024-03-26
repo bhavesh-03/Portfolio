@@ -3,7 +3,7 @@ import UnderConstruction from '../Components/UnderConstruction'
 
 const Blogs = () => {
   return (
-    <div>
+    <div >
         <UnderConstruction/>
     </div>
   )

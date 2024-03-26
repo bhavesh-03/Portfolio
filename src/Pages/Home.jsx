@@ -18,17 +18,17 @@ function App() {
           A Full Stack developer and Problem Solver
         </p>
         <div className="flex w-max items-end gap-4">
-          <Button  onClick={() => navigate('/Project')} variant="outlined" size="sm">Projects</Button>
+          <Button  onClick={() => navigate('/project')} variant="outlined" size="sm">Projects</Button>
           <Button  onClick={() => navigate('/blog')} variant="outlined" size="sm">Blogs</Button>
-          <Button  onClick={() => navigate('/Skills')} variant="outlined" size="sm">Skills</Button>
+          <Button  onClick={() => navigate('/skills')} variant="outlined" size="sm">Skills</Button>
           <Button  onClick={() => navigate('/about')} variant="outlined" size="sm">About</Button>
         </div>
        
 
         {/* For Bottom Buttons */}
-        <div className="flex flex-col md:flex-row md:space-x-4 mt-6 space-x-4 justify-center items-center flex-wrap">
+        <div className="flex gap-2 flex-col md:flex-row md:space-x-4 mt-6  justify-center items-center flex-wrap">
           {/* Buttons for Resume and GitHub */}
-          <div className="space-x-4 mb-2 md:mb-0 flex">
+          <div className="space-x-4 justify-end mb-2 md:mb-0 flex">
             <a
               target="_blank"
               rel='noreferrer'
@@ -47,7 +47,7 @@ function App() {
             </a>
           </div>
           {/* LinkedIn and Email Buttons */}
-          <div className="space-x-4 flex">
+          <div className="space-x-6 flex">
             <a
               target="_blank"
               rel='noreferrer'
