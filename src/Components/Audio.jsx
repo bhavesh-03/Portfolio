@@ -54,7 +54,7 @@ const AudioPlayer = ({ isMuted, toggleMute }) => {
         {isMuted ? <MdMusicOff /> : <MdMusicNote />}
       </div>
       {!isMuted && (
-        <div className="lofi-artist text-black-500 font-semibold hidden md:block">
+        <div className="lofi-artist text-white font-semibold hidden md:block">
           <div className="mr-3">{currentSong.name}</div>
           <div>{currentSong.artist}</div>
         </div>
