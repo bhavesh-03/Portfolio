@@ -20,7 +20,7 @@ function App() {
         <p className="text-[#C2C3C3] description text-center text-xl md:text-3xl my-4">
           A Full Stack developer and Problem Solver
         </p>
-        <div className="flex w-max items-end gap-4">
+        <div className="flex p- 2 w-max items-end gap-4">
           <Button css-aifqpu _hover={{ bg: '#CDCDCE' }} borderColor='white' bgColor={"white"}  onClick={() => navigate('/project')} variant='outline'>Projects</Button>
           <Button _hover={{ bg: '#CDCDCE' }} borderColor='white' bgColor={"white"} onClick={() => navigate('/skills')} variant='outline'>Skills</Button>
           <Button _hover={{ bg: '#CDCDCE' }} borderColor='white' bgColor={"white"}  onClick={() => navigate('/blog')} variant='outline'>Blogs</Button>
@@ -29,9 +29,9 @@ function App() {
        
 
         {/* For Bottom Buttons */}
-        <div className="flex gap-2 flex-col md:flex-row md:space-x-4 mt-6  justify-center items-center flex-wrap">
+        <div className="flex gap-2 flex-col md:flex-row md:space-x-4 mt-6  justify-center items-center flex-wrap ">
           {/* Buttons for Resume and GitHub */}
-          < div className="space-x-4 justify-end mb-2 md:mb-0 flex">
+          < div className="space-x-4 md:justify-end flex">
             {/* Resume */}
             <Link to={""}>
               <Button colorScheme='blue' borderRadius='22px'  leftIcon={<IoIosDocument/>}>Resume</Button>
@@ -43,7 +43,7 @@ function App() {
             </Link>
           </div>
           {/* LinkedIn and Email Buttons */}
-          <div className="space-x-6 flex">
+          <div className="space-x-6 flex ">
             <Link to={"https://github.com/bhavesh-03"}>
              <Button colorScheme='blue' borderRadius='22px' leftIcon={<FaGithub/>}>Github</Button>
             </Link>

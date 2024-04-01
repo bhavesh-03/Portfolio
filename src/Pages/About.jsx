@@ -21,19 +21,19 @@ export default function About() {
                         Hi👋🏻, I'm <span className='font-semibold'>Bhavesh Mankar</span>, full-stack developer and competitive programmer. I love crafting innovative solutions and exploring the world through non-fiction books and photography. Thriving on challenges, I blend creativity, technical expertise, and a thirst for learning in my work and life.
                     </p>
                     <div className="flex  mt-6 flex-wrap justify-center sm:justify-start space-x-4 space-y-4">
-                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-white  rounded-xl p-3 bg-[#373D47] text-lg mt-4">
+                        <a href="https://github.com/bhavesh-03" target="_blank" rel="noopener noreferrer" className="text-white  rounded-xl p-3 bg-[#373D47] text-lg mt-4">
                             <FaGithub  className='text-4xl'/>
                         </a>
-                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-white  text-lg rounded-xl p-3 bg-[#373D47]">
+                        <a href="https://www.linkedin.com/in/bhavesh-mankar-7420ba22a/" target="_blank" rel="noopener noreferrer" className="text-white  text-lg rounded-xl p-3 bg-[#373D47]">
                             <FaLinkedin className='text-4xl'/>
                         </a>
-                        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-white  text-lg rounded-xl p-3 bg-[#373D47]">
+                        <a href="https://twitter.com/chat_masala_25" target="_blank" rel="noopener noreferrer" className="text-white  text-lg rounded-xl p-3 bg-[#373D47]">
                             <FaTwitter className='text-4xl' />
                         </a>
-                        <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-white  text-lg rounded-xl p-3 bg-[#373D47]">
+                        <a href="https://www.instagram.com/bhaveshmankar03/" target="_blank" rel="noopener noreferrer" className="text-white  text-lg rounded-xl p-3 bg-[#373D47]">
                             <FaInstagram className='text-4xl' />
                         </a>
-                        <a href="mailto:youremail@gmail.com" className="text-white text-lg rounded-xl p-3 bg-[#373D47]">
+                        <a href="mailto:bmmankar25@gmail.com" className="text-white text-lg rounded-xl p-3 bg-[#373D47]">
                             <AiOutlineMail className='text-4xl' />
                         </a>
                     </div>
