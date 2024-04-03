@@ -30,21 +30,21 @@ export default function About() {
                 ⚡I'm a <strong className='text-teal-500 text-lg'>Full Stack Developer and competitive programmer</strong> . I specialize in building SaaS products and microservices apps, solving real-world problems with precision. I'm skilled in both <strong className='text-teal-500 text-lg'>frontend and backend</strong>  architecture, ensuring scalable solutions based on core principles. By blending UX/UI design with intuitive development, I create user-friendly experiences.Outside of coding, I enjoy <strong className='text-teal-500 text-lg'>watching anime📺, reading books📖, and photography📸</strong>, which bring fresh perspectives to my work.
                     </p>      
 
-                    <div className="flex  mt-6 flex-wrap justify-center sm:justify-start space-x-4 space-y-4">
+                    <div className="flex  mt-6 flex-wrap  sm:justify-start justify-evenly space-x-4 space-y-4">
                         <a href="https://github.com/bhavesh-03" target="_blank" rel="noopener noreferrer" className="text-white  rounded-xl hover:scale-110 p-3 bg-[#373D47] text-lg mt-4">
-                            <FaGithub   className='text-4xl'/>
+                            <FaGithub   className='text-2xl'/>
                         </a>
                         <a href="https://www.linkedin.com/in/bhavesh-mankar-7420ba22a/" target="_blank" rel="noopener noreferrer" className="text-white  hover:scale-110 text-lg rounded-xl p-3 bg-[#373D47]">
-                            <FaLinkedin className='text-4xl'/>
+                            <FaLinkedin className='text-2xl'/>
                         </a>
                         <a href="https://twitter.com/chat_masala_25" target="_blank" rel="noopener noreferrer" className="text-white  hover:scale-110 text-lg rounded-xl p-3 bg-[#373D47]">
-                            <FaTwitter className='text-4xl' />
+                            <FaTwitter className='text-2xl' />
                         </a>
                         <a href="https://www.instagram.com/bhaveshmankar03/" target="_blank" rel="noopener noreferrer" className="text-white  hover:scale-110 text-lg rounded-xl p-3 bg-[#373D47]">
-                            <FaInstagram className='text-4xl' />
+                            <FaInstagram className='text-2xl' />
                         </a>
                         <a href="mailto:bmmankar25@gmail.com" className="text-white text-lg  hover:scale-110 rounded-xl p-3 bg-[#373D47]">
-                            <AiOutlineMail className='text-4xl' />
+                            <AiOutlineMail className='text-2xl' />
                         </a>
                     </div>
                 </div>
