@@ -41,7 +41,7 @@ const Skills = () => {
               <Image src={JSSVG} title="JavaScript" alt="Javascript Logo" width="90" height="90" className="skill-icon hover:scale-125" />
               <Image src={HTMLSVG} title="HTML" alt="HTML Logo" width="90" height="90" className="skill-icon hover:scale-125" />
               <Image src={CSSSVG} title="CSS" alt="CSS Logo" width="90" height="90" className="skill-icon hover:scale-125" />
-              <Image src={ReactSVG} title="React JS" alt="React Logo" width="90" height="90" className="skill-icon hover:scale-125" />
+              <Image src={ReactSVG} title="React JS" alt="React Logo" width="70" height="70" className="skill-icon hover:scale-125" />
               <Image src={NodeSVG} title="Node.js" alt="node Logo" width="70" height="70" className="skill-icon hover:scale-125" />
               <Image src={ExpressSVG} title="Express" alt="Express Logo" width="90" height="90" className="skill-icon hover:scale-125" />
               <Image src={MongoDBSVG} title="MongoDB" alt="MongoDB Logo" width="90" height="90" className="skill-icon hover:scale-125" />
@@ -49,8 +49,8 @@ const Skills = () => {
               <Image src={GitSVG} title="Git" alt="Git Logo" width="90" height="90" className="skill-icon hover:scale-125" />
               <Image src={GitHubSVG} title="GitHub" alt="Github Logo" width="90" height="90" className="skill-icon hover:scale-125" />
               <Image src={DockerSVG} title="Docker" alt="Docker Logo" width="90" height="90" className="skill-icon hover:scale-125" />
-              <Image src={AWS} title="AWS" alt="AWS Logo" width="70" height="70" className="skill-icon hover:scale-125" />
-              <Image src={GCSVG} title="Google Cloud" alt="Google Cloud Logo" width="90" height="90" className="skill-icon hover:scale-125" />
+              <Image src={AWS} title="AWS" alt="AWS Logo" width="65" height="65" className="skill-icon hover:scale-125" />
+              <Image src={GCSVG} title="Google Cloud" alt="Google Cloud Logo" width="65" height="65" className="skill-icon hover:scale-125" />
               <Image src={FirebaseSVG} title="Firebase" alt="Firebase Logo" width="90" height="90" className="skill-icon hover:scale-125" />
               <Image src={TailwindSVG} title="Tailwind CSS" alt="Tailwind Logo" width="90" height="90" className="skill-icon hover:scale-125" />
               <Image src={VercelSVG} title="Vercel" alt="vercel Logo" width="90" height="90" className="skill-icon hover:scale-125" />

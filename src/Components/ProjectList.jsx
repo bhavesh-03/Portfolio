@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectList = ({ projects }) => {
   return (
-    <div className=" flex flex-wrap gap-4 md:gap-8 justify-center">
+    <div className=" font-Inter flex flex-wrap gap-4 md:gap-8 justify-center">
       {projects.map((project) => (
         <div
           className='bg-[#1F2121] text-wh rounded-xl shadow-sm overflow-hidden w-full md:w-96' 
@@ -23,7 +23,7 @@ const ProjectList = ({ projects }) => {
                 <p key={index} className="mb-3 font-semibold text-[#DCDFE4]">{line}</p>
             ))}
             <div className="mb-3">
-              <strong className='text-white'>Tech Stack:</strong> 
+              <strong className='text-teal-400 text-lg'>Tech Stack:</strong> 
               <div className="flex flex-wrap gap-2">
                 {project.techStack.map((tech, index) => (
                   <div

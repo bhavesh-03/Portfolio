@@ -11,7 +11,7 @@ import { MdEmail } from "react-icons/md";
 function App() {
   const navigate = useNavigate();
   return (
-    <div className=" container min-h-screen flex min-w-full flex-col">
+    <div className="font-Inter container min-h-screen flex min-w-full flex-col">
       <main className="main flex-grow flex flex-col items-center justify-center bg-[#000000] p-5 rounded">
         <div className="text-white title font-bold text-4xl md:text-6xl text-center">
           Hi!👋🏻 I am <br />
@@ -33,7 +33,7 @@ function App() {
           {/* Buttons for Resume and GitHub */}
           < div className="space-x-4 md:justify-end flex">
             {/* Resume */}
-            <Link to={""}>
+            <Link to={"https://drive.google.com/file/d/1c7TbWyxBykhHH0ojjI_zWPZAnwat-cuw/view?usp=drive_link"}>
               <Button colorScheme='blue' borderRadius='22px'  leftIcon={<IoIosDocument/>}>Resume</Button>
             </Link>
            
