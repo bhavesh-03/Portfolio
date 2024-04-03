@@ -1,4 +1,7 @@
 import React from 'react';
+import { FaCode } from "react-icons/fa6";
+import {Link} from 'react-router-dom';
+import { Button } from '@chakra-ui/react';
 
 const ProjectList = ({ projects }) => {
   return (
@@ -38,22 +41,19 @@ const ProjectList = ({ projects }) => {
           </div>
 
           <div className="p-2 mb-2 flex justify-center items-center">
-            <a
+            {/* <a
               href={project.githubLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3 py-1 text-sm bg-[#4BCE97] border border-neutral-200 rounded-lg font-bold  transition-colors duration-300 "
+              className="px-3 py-1 text-sm bg-[#4BCE97] hover:scale-105 border border-neutral-200 rounded-lg font-bold  transition-colors duration-300 "
+              
             >
               GitHub Repo
-            </a>
-            <a
-              href={project.liveDemoLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-2 px-3 py-1 text-sm bg-[#579DFF] border border-neutral-200 rounded-lg font-bold transition-colors duration-300"
-            >
-              Live Demo
-            </a>
+            </a> */}
+            <Link to={project.githubLink}>
+              <Button colorScheme='blue' borderRadius='22px' leftIcon={<FaCode />}>Github</Button>
+            </Link>
+            
           </div>
         </div>
       ))}
