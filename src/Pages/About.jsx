@@ -5,14 +5,15 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { Box } from '@chakra-ui/react';
 import ContactCard from '../Components/ContactCard';
+import Footer from '../Components/Footer';
 
 
 export default function About() {
     return (
-        
-            <div className=" bg-[#000000] font-Inter min-h-screen">
+            <section className='bg-[#000000] font-Inter min-h-screen'>
+                <div className=" ">
                 <Navbar />
-                <section className="flex-1 min-w-screen bg-[#000000] p-10 md:p-8 flex flex-col md:flex-row items-center">
+                <section className="flex-1 min-w-screen bg-[#000000] p-10 flex flex-col md:flex-row items-center">
                 {/* <div className="w-full md:w-2/5 flex justify-center items-center">
                     <img src={image} alt="Workspace" className="bg-center w-auto rounded-full shadow-lg border-[#0F4C75]" />
                 </div> */}
@@ -50,8 +51,13 @@ export default function About() {
                     </div>
                 </div>
             </section>
+
+            
             {/* Creating a contact me page */}
             {/* <ContactCard/> */}
             </div>
+            <Footer/>
+            </section>
+            
     );
 }

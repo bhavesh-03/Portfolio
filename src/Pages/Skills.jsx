@@ -22,10 +22,12 @@ import FirebaseSVG from '../Assets/SkillsIcon/firebase.svg';
 import TailwindSVG from '../Assets/SkillsIcon/tailwind-css.svg';
 import VercelSVG from '../Assets/SkillsIcon/logo-vercel-svgrepo-com.svg';
 import VSCodeSVG from '../Assets/SkillsIcon/visual-studio-code.svg';
+import Footer from '../Components/Footer';
 
 const Skills = () => {
     return (
-        <Box className="bg-[#000000] min-h-screen">
+        <section className='bg-[#000000] min-h-screen p-9"'>
+            <Box className="">
             <Navbar />
             <Box className="px-6 pt-8 mx-auto max-w-screen-lg">
                 <div className='heading relative'>
@@ -57,6 +59,10 @@ const Skills = () => {
               <Image src={VSCodeSVG}  title="VS Code" alt="VScode Logo" width="90" height="90" className="skill-icon hover:scale-125" />
             </Box>
         </Box>
+        <Footer/>
+        </section>
+        
+        
     );
 };
 

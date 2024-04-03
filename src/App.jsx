@@ -34,7 +34,7 @@ function App() {
       <Route path="/Blog" element={<Blogs/>}></Route>
       <Route path="/Project" element={<Project/>}></Route>
     </Routes>
-    <AudioPlayer isMuted={isMuted} toggleMute={toggleMute} />
+    {/* <AudioPlayer isMuted={isMuted} toggleMute={toggleMute} /> */}
     </div>
   );
 }

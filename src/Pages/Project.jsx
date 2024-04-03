@@ -2,7 +2,7 @@ import React from 'react';
 import projectData from '../Utils/ProjectData';
 import ProjectList from '../Components/ProjectList';
 import Navbar from '../Components/NavBar';
-
+import Footer from '../Components/Footer';
 const Project = () => {
   return (
     
@@ -11,6 +11,7 @@ const Project = () => {
       <div className="container mx-auto py-6 px-3 ">
         <ProjectList projects={projectData} />
       </div>
+      <Footer />
     </div>
   );
 };
