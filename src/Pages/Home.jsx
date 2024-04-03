@@ -1,13 +1,18 @@
 import React,{useState,useEffect} from "react";
-import { Link } from 'react-router-dom';
+
 import { Button } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosDocument } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import Footer from "../Components/Footer";
-import { ageInYears } from '../Utils/lib/AgeInYears';
+// import { ageInYears } from '../Utils/lib/AgeInYears';
 import { getFormattedTime } from '../Utils/lib/Time';
+import GhCard from '../Components/Cards/Ghcard';
+import { LinksCard } from "../Components/Cards/LinksCard";
+import MailCard from "../Components/Cards/MailCard";
+import ResumeCard from "../Components/Cards/ResumeCard";
+
 
 function App() {
   const [currentTime, setCurrentTime] = useState(getFormattedTime());
@@ -23,7 +28,8 @@ function App() {
     <div className="bg-[#000000] flex flex-col min-h-screen">
       <main className="flex-grow flex flex-col items-center justify-center  p-5 rounded">
         <div className="text-white title font-bold text-4xl md:text-6xl text-center">
-          Hi!👋🏻 I am <br />
+          
+           <p>Hi!👋🏻I am</p>
           <span className="text-[#00D587]">Bhavesh Mankar</span>
         </div>
         <p className="text-zinc-500 description text-center text-xl md:text-2xl my-4">
@@ -35,31 +41,22 @@ function App() {
           <Button _hover={{ bg: '#CDCDCE' }} borderColor='white' bgColor={"white"} onClick={() => navigate('/blog')} variant='outline'>Blogs</Button>
           <Button _hover={{ bg: '#CDCDCE' }} borderColor='white' bgColor={"white"} onClick={() => navigate('/about')} variant='outline'>About</Button>
         </div>
-
-        {/* For Bottom Buttons */}
-        <div className="flex gap-2 flex-col md:flex-row md:space-x-4 mt-6 justify-center items-center flex-wrap">
-          {/* Buttons for Resume and GitHub */}
-          <div className="space-x-4 md:justify-end flex">
-            {/* Resume */}
-            <Link to={"https://drive.google.com/file/d/1c7TbWyxBykhHH0ojjI_zWPZAnwat-cuw/view?usp=drive_link"}>
-              <Button colorScheme='blue' borderRadius='22px' leftIcon={<IoIosDocument />}>Resume</Button>
-            </Link>
-
-            {/* Linkedin */}
-            <Link to={"https://www.linkedin.com/in/bhavesh-mankar-7420ba22a/"}>
-              <Button colorScheme='blue' borderRadius='22px' leftIcon={<FaLinkedin />}>Linkedin</Button>
-            </Link>
-          </div>
-          {/* LinkedIn and Email Buttons */}
-          <div className="space-x-6 flex">
-            <Link to={"https://github.com/bhavesh-03"}>
-              <Button colorScheme='blue' borderRadius='22px' leftIcon={<FaGithub />}>Github</Button>
-            </Link>
-            <Link to={"mailto:bmmankar25@gmail.com"}>
-              <Button colorScheme='blue' borderRadius='22px' leftIcon={<MdEmail />}>Email</Button>
-            </Link>
-          </div>
+        <div className="mt-3 w-96">
+          <GhCard />
         </div>
+        <div className="flex flex-col mt-3 col-span-3">
+          <div className="flex gap-3">
+            <div className="w-24">
+            
+              <MailCard/>
+            </div>
+            <div className="flex flex-col gap-4 w-[17rem] ">
+              <LinksCard />
+              
+              <ResumeCard/>
+            </div>
+          </div>
+          </div>
       </main>
       <Footer className="mt-auto" />
     </div>

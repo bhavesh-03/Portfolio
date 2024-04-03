@@ -14,9 +14,7 @@ export default function About() {
                 <div className=" ">
                 <Navbar />
                 <section className="flex-1 min-w-screen bg-[#000000] p-10 flex flex-col md:flex-row items-center">
-                {/* <div className="w-full md:w-2/5 flex justify-center items-center">
-                    <img src={image} alt="Workspace" className="bg-center w-auto rounded-full shadow-lg border-[#0F4C75]" />
-                </div> */}
+                
                 <div className="w-full md:w-3/5 p-4 md:p-8">
                     <Box className=" mx-auto max-w-screen-lg">
                         <div className='heading relative'>
