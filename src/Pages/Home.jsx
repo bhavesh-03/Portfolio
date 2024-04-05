@@ -51,8 +51,7 @@ function App() {
               <MailCard/>
             </div>
             <div className="flex flex-col gap-4 w-[17rem] ">
-              <LinksCard />
-              
+              <LinksCard/>
               <ResumeCard/>
             </div>
           </div>

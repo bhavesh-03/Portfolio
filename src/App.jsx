@@ -8,6 +8,7 @@ import Blogs from "./Pages/Blogs.jsx";
 import Project from "./Pages/Project.jsx";
 import Navbar from "./Components/NavBar.jsx";
 import AudioPlayer from "./Components/Audio.jsx";
+import AnimePage from "./Pages/AnimePage.jsx";
 
 function App() {
      const [isMuted, setIsMuted] = useState(true)
@@ -33,6 +34,7 @@ function App() {
       <Route path="/About" element={<About/>}></Route>
       <Route path="/Blog" element={<Blogs/>}></Route>
       <Route path="/Project" element={<Project/>}></Route>
+      <Route path="/Anime" element={<AnimePage/>}></Route>
     </Routes>
     {/* <AudioPlayer isMuted={isMuted} toggleMute={toggleMute} /> */}
     </div>

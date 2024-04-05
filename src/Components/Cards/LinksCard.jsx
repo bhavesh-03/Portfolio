@@ -25,3 +25,5 @@ export const LinksCard = () => {
     </div>
   );
 };
+
+export default LinksCard ;
