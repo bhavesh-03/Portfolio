@@ -26,8 +26,8 @@ import Footer from '../Components/Footer';
 
 const Skills = () => {
     return (
-        <section className='bg-[#000000] min-h-screen p-9"'>
-            <Box className="">
+        <div className='bg-[#000000] flex flex-col min-h-screen '>
+            <Box className="min-h-screen">
             <Navbar />
             <Box className="px-6 pt-8 mx-auto max-w-screen-lg">
                 <div className='heading relative'>
@@ -59,8 +59,8 @@ const Skills = () => {
               <Image src={VSCodeSVG}  title="VS Code" alt="VScode Logo" width="90" height="90" className="skill-icon hover:scale-125" />
             </Box>
         </Box>
-        <Footer/>
-        </section>
+        <Footer className="mt-auto"/>
+        </div>
         
         
     );

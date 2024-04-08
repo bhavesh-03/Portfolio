@@ -21,7 +21,7 @@ const ProjectList = ({ projects }) => {
           </div>
 
           <div className="p-4">
-            <h2 className="text-xl font-bold text-whitemb-2 text-white">{project.name}</h2>
+            <h2 className="text-xl font-bold text-white mb-2">{project.name}</h2>
             {project.description.split('\n').map((line, index) => (
                 <p key={index} className="mb-3 font-semibold text-[#DCDFE4]">{line}</p>
             ))}

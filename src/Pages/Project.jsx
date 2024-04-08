@@ -8,7 +8,7 @@ const Project = () => {
     
     <div className=" bg-[#000000] min-h-screen">
       <Navbar />
-      <div className="container mx-auto py-6 px-3 ">
+      <div className="container mx-auto min-h-screen py-6 px-3 ">
         <ProjectList projects={projectData} />
       </div>
       <Footer />

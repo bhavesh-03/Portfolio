@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer class="">
-    <div class="font-medium w-full max-w-screen-full flex flex-row mx-auto p-4 justify-center border-t-2 border-zinc-800 justify-evenly">
+    <div class="font-medium w-full max-w-screen-full flex flex-row mx-auto p-4  border-t-2 border-zinc-800 justify-evenly">
         <p className='text-white'><span><Emoji/></span> {new Date().getFullYear()}<span className="text-zinc-300 dark:text-zinc-600">—</span> he{" "}
           <span className="text-zinc-300 dark:text-zinc-600">/</span>him</p>
         

@@ -12,7 +12,7 @@ const AnimeCard = () => {
           src={SaturoAnime}
           alt="Background"
         />
-        <p className="font-bold -rotate-90 absolute top-10 bottom-16 md:left-44 left-28 text-white w-40">
+        <p className="font-bold -rotate-90 absolute top-10 bottom-16 md:left-80 text-white w-40">
             アニメ一覧
         </p>
         <MoveUpRight  className="absolute text-white transition-all group-hover:scale-105 top-2 right-2 border border-white bg-black rounded-full p-1" />

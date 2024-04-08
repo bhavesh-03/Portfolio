@@ -25,8 +25,8 @@ function App() {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-[#000000] flex flex-col min-h-screen">
-      <main className="flex-grow flex flex-col items-center justify-center  p-5 rounded">
+    <div className="bg-[#000000]">
+      <main className="flex-grow min-h-screen flex flex-col items-center justify-center  p-5 rounded">
         <div className="text-white title font-bold text-4xl md:text-6xl text-center">
           
            <p>Hi!👋🏻I am</p>
@@ -57,6 +57,7 @@ function App() {
           </div>
           </div>
       </main>
+
       <Footer className="mt-auto" />
     </div>
   );

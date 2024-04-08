@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const AnimeImageCard = ({
@@ -15,6 +16,7 @@ const AnimeImageCard = ({
   ) : null;
     console.log(imgName);
   return (
+    
     <a
       href={href}
       rel="noopener noreferrer"
