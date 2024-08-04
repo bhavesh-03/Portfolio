@@ -4,7 +4,7 @@ import Resume from "../../Assets/resume.png";
 const ResumeCard =  () => {
   return (
     <a
-      href="https://drive.google.com/file/d/1c7TbWyxBykhHH0ojjI_zWPZAnwat-cuw/view?usp=drive_link"
+      href="https://drive.google.com/file/d/1Wzslys1aMncgHwKelDxcTIt8rDls5sbo/view"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:scale-95 duration-500 transform-gpu"

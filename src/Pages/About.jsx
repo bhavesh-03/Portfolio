@@ -7,6 +7,9 @@ import Footer from '../Components/Footer';
 import AnimeCard from '../Components/Cards/AnimeCard';
 import LinksAboutCard from '../Components/Cards/LinksAboutCard';
 import BooksCard from '../Components/Cards/BooksCard';
+// import ContactMe from '../Components/Cards/Contactme';
+
+
 const About = () => {
   return (
     <div className="bg-black min-h-screen">
@@ -37,7 +40,7 @@ const About = () => {
               </div>
         </div>
 </div>
-
+      {/* <ContactMe /> */}
       </section>
       <Footer className="mt-auto"/>
     </div>
